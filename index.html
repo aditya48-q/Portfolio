@@ -1,39 +1,298 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <title>Adi</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <div class="container">
-      <img
-        class="profile-pic"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1a-nHQZMmyZdXKypbFqUqXbxRGvmORRRRLQ&s" width="120"
-        alt="Aditya's profile picture"
-      />
-      <h1>Aditya</h1>
-      <p>
-        Hi, I’m Aditya! I’m learning web development and I enjoy building small
-        projects with HTML, CSS, and JavaScript. Here are a few places you can
-        find me and my work.
-      </p>
-      <div class="links">
-        <a class="link-button" href="https://www.instagram.com/a7di___/" target="_blank">
-          Instagram
-        </a>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-        <a class="link-button" href="https://github.com/aditya48-q" target="_blank">
-          GitHub
-        </a>
+    <header class="site-header">
+      <div class="shell">
+        <nav class="navbar" aria-label="Primary">
+          <a class="brand" href="#hero" aria-label="Go to top">
+            <span class="brand-dot" aria-hidden="true"></span>
+            <span class="brand-text">Aditya</span>
+          </a>
 
-        <a class="link-button" href="https://aditya48-q.github.io/Codex-project/" target="_blank" >
-          Personal Website
-        </a>
-        <a class="link-button" href="https://github.com/aditya48-q/Codex-project" target="_blank">
-          Latest Project
-        </a>
+          <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <div class="nav-cta">
+            <a class="btn btn-ghost" href="#projects">Projects</a>
+            <a class="btn btn-primary" href="#contact">Contact</a>
+          </div>
+        </nav>
       </div>
-    </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section id="hero" class="section hero">
+        <div class="shell">
+          <div class="hero-grid">
+            <div class="hero-copy reveal" style="--d: 0ms">
+              <p class="eyebrow">Developer Portfolio</p>
+              <h1 class="headline">
+                Hi, I’m <span class="text-gradient">Aditya</span>.
+                <span class="headline-sub">Aspiring Web Developer</span>
+              </h1>
+              <p class="lead">
+                I build clean, responsive websites and I’m currently leveling up my
+                front-end skills with modern UI patterns.
+              </p>
+
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="#projects">View Projects</a>
+                <a class="btn btn-ghost" href="#contact">Get in Touch</a>
+              </div>
+
+              <div class="hero-social">
+                <a class="chip" href="https://github.com/aditya48-q" target="_blank" rel="noreferrer">
+                  GitHub
+                </a>
+                <a class="chip" href="https://www.instagram.com/a7di___/" target="_blank" rel="noreferrer">
+                  Instagram
+                </a>
+                <a class="chip" href="https://aditya48-q.github.io/Codex-project/" target="_blank" rel="noreferrer">
+                  Live Site
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-card reveal" style="--d: 80ms">
+              <div class="profile">
+                <img
+                  class="profile-pic"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1a-nHQZMmyZdXKypbFqUqXbxRGvmORRRRLQ&s"
+                  width="120"
+                  height="120"
+                  alt="Aditya profile picture"
+                />
+                <div class="profile-meta">
+                  <p class="profile-name">Aditya</p>
+                  <p class="profile-role">Front-end • HTML • CSS</p>
+                </div>
+              </div>
+
+              <div class="stats">
+                <div class="stat">
+                  <p class="stat-k">1+</p>
+                  <p class="stat-l">Projects</p>
+                </div>
+                <div class="stat">
+                  <p class="stat-k">Mobile</p>
+                  <p class="stat-l">First</p>
+                </div>
+                <div class="stat">
+                  <p class="stat-k">Clean</p>
+                  <p class="stat-l">UI</p>
+                </div>
+              </div>
+
+              <div class="divider" aria-hidden="true"></div>
+
+              <p class="muted">
+                Open to learning opportunities and collaborations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section">
+        <div class="shell">
+          <div class="section-head reveal" style="--d: 0ms">
+            <h2>About</h2>
+            <p>
+              I’m a beginner web developer focused on crafting modern, accessible,
+              and responsive web experiences.
+            </p>
+          </div>
+
+          <div class="grid-2">
+            <div class="surface reveal" style="--d: 60ms">
+              <h3>What I do</h3>
+              <p>
+                I enjoy building small projects and improving them with better UI,
+                clean layouts, and polished styling.
+              </p>
+              <ul class="bullet">
+                <li>Responsive layouts (mobile-first)</li>
+                <li>Modern dark UI (Obsidian-inspired)</li>
+                <li>Clean HTML + CSS architecture</li>
+              </ul>
+            </div>
+
+            <div class="surface reveal" style="--d: 120ms">
+              <h3>Currently learning</h3>
+              <p>
+                Strengthening fundamentals and exploring best practices for
+                component-like CSS, spacing systems, and typography.
+              </p>
+              <div class="pill-row">
+                <span class="pill">HTML</span>
+                <span class="pill">CSS</span>
+                <span class="pill">Responsive UI</span>
+                <span class="pill">Accessibility</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section">
+        <div class="shell">
+          <div class="section-head reveal" style="--d: 0ms">
+            <h2>Skills</h2>
+            <p>Core tools I use to build and style web pages.</p>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card reveal" style="--d: 60ms">
+              <h3>HTML</h3>
+              <p class="muted">Semantic structure, accessibility-friendly markup.</p>
+            </div>
+            <div class="skill-card reveal" style="--d: 120ms">
+              <h3>CSS</h3>
+              <p class="muted">Modern layouts, grid, responsive design, animations.</p>
+            </div>
+            <div class="skill-card reveal" style="--d: 180ms">
+              <h3>UI / Layout</h3>
+              <p class="muted">Spacing, typography hierarchy, clean components.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section">
+        <div class="shell">
+          <div class="section-head reveal" style="--d: 0ms">
+            <h2>Projects</h2>
+            <p>Selected work presented in a modern card layout.</p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card reveal" style="--d: 60ms">
+              <div class="project-top">
+                <h3>Codex Project</h3>
+                <p class="muted">
+                  My first HTML + CSS project—now upgraded with a premium dark UI
+                  and a clean layout.
+                </p>
+              </div>
+
+              <div class="stack">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+
+              <div class="project-actions">
+                <a
+                  class="btn btn-primary"
+                  href="https://aditya48-q.github.io/Codex-project/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
+                <a
+                  class="btn btn-ghost"
+                  href="https://github.com/aditya48-q/Codex-project"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
+            </article>
+
+            <!-- Copy this card block to add more projects -->
+            <article class="project-card reveal" style="--d: 120ms">
+              <div class="project-top">
+                <h3>Next Project</h3>
+                <p class="muted">
+                  Add your next project here. Keep descriptions short, clear, and
+                  impact-focused.
+                </p>
+              </div>
+
+              <div class="stack">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+
+              <div class="project-actions">
+                <a class="btn btn-primary" href="#" aria-disabled="true">Live Demo</a>
+                <a class="btn btn-ghost" href="#" aria-disabled="true">GitHub</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section">
+        <div class="shell">
+          <div class="section-head reveal" style="--d: 0ms">
+            <h2>Contact</h2>
+            <p>Want to collaborate or have feedback? Let’s connect.</p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="surface reveal" style="--d: 60ms">
+              <h3>Reach me</h3>
+              <p class="muted">Pick a platform:</p>
+              <div class="contact-actions">
+                <a class="btn btn-primary" href="https://github.com/aditya48-q" target="_blank" rel="noreferrer">
+                  GitHub
+                </a>
+                <a class="btn btn-ghost" href="https://www.instagram.com/a7di___/" target="_blank" rel="noreferrer">
+                  Instagram
+                </a>
+              </div>
+            </div>
+
+            <div class="surface reveal" style="--d: 120ms">
+              <h3>Quick note</h3>
+              <p class="muted">
+                Add your email here when you’re ready:
+                <span class="code">yourname@example.com</span>
+              </p>
+              <p class="muted">
+                Tip: You can also add LinkedIn or a resume link.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="shell">
+          <div class="footer-inner">
+            <p class="muted">© 2026 Aditya. Built with HTML + CSS.</p>
+            <a class="to-top" href="#hero">Back to top</a>
+          </div>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>
